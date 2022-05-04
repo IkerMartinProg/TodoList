@@ -2,7 +2,16 @@
 
 <PageTitle>Todo</PageTitle>
 
+@*
+    Muestra el número de datos introducidos en la lista.
+*@
+
 <h1>Todo (@todos.Count(todo => !todo.IsDone))</h1>
+
+@*
+    Lista de registros actualizable.
+    Cada registro tiene un "checkbox" y su correspondiente texto.
+*@
 
 <ul>
     @foreach (var todo in todos)
@@ -14,15 +23,36 @@
     }
 </ul>
 
+@*
+    Campo para introducir texto.
+    Botón para añadir un registro a la lista.
+*@
+
 <input placeholder="Something todo" @bind="newTodo" />
 <button @onclick="AddTodo">Add todo</button>
+
+@*
+    Se declara los siguiente:
+        -Lista "todos".
+        -Variable "newTodo".
+*@
 
 @code {
     private List<TodoItem> todos = new();
     private string? newTodo;
 
+    @*
+        Cuando se pulsa el botón, se ejecuta el método "AddTodo".
+    *@
+
     private void AddTodo()
     {
+
+        @*
+            Si se introduce un valor "no vacío",
+            se añadirá a la lista "todos".
+        *@
+
         if (!string.IsNullOrWhiteSpace(newTodo))
         {
             todos.Add(new TodoItem { Title = newTodo });

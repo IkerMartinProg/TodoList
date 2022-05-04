@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XW2fNg9eqQ4+lqidkBrdZrjQz12RdfngK9qr8gP0ZRY=",
+  "Hash": "Q+Nc0N8RVSu55DZ1VooOFpkcJRW57EazceZYgOo3HYQ=",
   "Source": "TodoList",
   "BasePath": "_content/TodoList",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\i.martin\\TodoList\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "TodoList",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\i.martin\\TodoList\\wwwroot\\",
-      "BasePath": "_content/TodoList",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\i.martin\\TodoList\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -202,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\i.martin\\TodoList\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "TodoList",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\i.martin\\TodoList\\wwwroot\\",
+      "BasePath": "_content/TodoList",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\i.martin\\TodoList\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
